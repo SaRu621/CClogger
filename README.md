@@ -7,11 +7,17 @@
 
 ## Запуск приложения: 
 ```console
-git clone
+git clone https://github.com/SaRu621/CClogger.git
 cd CClogger
 cd YadroTest
 docker build -t go-app .
-```  
+```
+## Запуск тестов:
+
+```console
+cd logger
+go test -cover -v
+```
 
 Для запуска в консоли (linux) достаточно перейти в директорию с файлом main.go с помощью команды cd и исполнить команду go run main.go.  
 

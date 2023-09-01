@@ -1,11 +1,17 @@
-# CompClublogger
+# Computer club clinets logger
 Тестовое задание для Yadro.com  
 
 В logger содержатся функции, необходимые для работы приложения.  
 
-Папки input, output и expect (входные данные, выходные данные и ожидаемые соответственно) нужны для тестирования функции Logger.  
+Папки **input**, **output** и **expect** (входные данные, выходные данные и ожидаемые соответственно) нужны для тестирования функции Logger.  
 
-Для запуска приложения в docker контейнере необходимо создать этот образ с помощью Dockerfile (команда docker build -t go-app .).  
+## Запуск приложения: 
+```console
+git clone
+cd CClogger
+cd YadroTest
+docker build -t go-app .
+```  
 
 Для запуска в консоли (linux) достаточно перейти в директорию с файлом main.go с помощью команды cd и исполнить команду go run main.go.  
 

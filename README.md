@@ -1,4 +1,4 @@
-# Computer club clinets logger
+# Computer club clients logger
 Тестовое задание для Yadro.com  
 
 В logger содержатся функции, необходимые для работы приложения.  

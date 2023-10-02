@@ -11,6 +11,7 @@ git clone https://github.com/SaRu621/CClogger.git
 cd CClogger
 cd YadroTest
 docker build -t go-app .
+docker run go-app
 ```
 или
 
